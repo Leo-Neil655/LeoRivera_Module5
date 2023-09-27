@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+
+*{ padding: 0px;margin: 0px;}
+
+.navbar{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    background-color: red;
+}
+.links{
+display: inline;
+}
+.links a{
+    text-decoration: none;
+    font-family: 'Germania One', serif;
+    font-size: xx-large;
+    padding: 0 5px 0 5px;
+    border: 1px solid black;
+    opacity: 3;
+     transition: .4s;
+}
+.links a:hover{
+    opacity: .7;
+    transition: .4s;
+}
+
+.rounded{border-radius: 10px;}
+.I{background-color: white; color: black;}
+.Love{background-color: white; color: black;}
+.The{background-color: white; color: black;}
+.Lord{background-color: white; color: black;}
